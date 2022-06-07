@@ -30,6 +30,25 @@
           class="hidden py-3 px-6 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
           >Get Started</a
         >
+        <!-- Hamburger -->
+        <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+
+        <div class="md:hidden"> 
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end  py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Products</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- Hero Section -->
@@ -195,9 +214,7 @@
       <div
         class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
       >
-        <div class="mx-auto my-6 text-center text-white md:hidden">
-          Copyright &copy 2022, All Rights Reserved
-        </div>
+        <div class="mx-auto my-6 text-center text-white md:hidden">Copyright &copy 2022, All Rights Reserved</div>
         <div class="flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
           <div>
             <img src="img/logo-white.svg" class="h-8" alt="" />
@@ -257,5 +274,6 @@
         </div>
       </div>
     </footer>
+    <script src="js/script.js"></script>
   </body>
 </html>
